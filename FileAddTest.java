@@ -1,5 +1,4 @@
 import java.io.*;
-
 public class FileAddTest {
     public static void main(String[] args) throws IOException {
         File file=new File("C:"+File.separator+"Users"+File.separator+"白乐荣"+
@@ -15,8 +14,7 @@ public class FileAddTest {
         //将内容变为字节数组
         outputStream.write(msg.getBytes());
         //关闭输出
-        outputStream.close();
-
-        //
+        outputStream.close()；
     }
 }
+//这是我们的文件的创造
