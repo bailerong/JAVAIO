@@ -6,6 +6,7 @@ import java.io.IOException;
 public class FileTest {
     public static void main(String[] args) {
         //取得File对象
+        //我们的很多的东西很注重实际
         File file=new File("C:"+ File.separator+"Users"+
                 File.separator+"白乐荣"+ File.separator+"Desktop"+ File.separator+"JavaIO.java");
         System.out.println(file.getParent());
