@@ -1,6 +1,5 @@
 import java.io.File;
 import java.io.IOException;
-
 /*
 * 这是我们的File类的理解以及File类的操作代码
 * */
@@ -16,7 +15,5 @@ public class FileTest {
         if(!parentFile.exists()){
             parentFile.mkdirs();
         }
-
-
  }
 }
